@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="../libs/bootstrap.js"></script>
+    <link rel="stylesheet" href="../libs/bootstrap.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-login">
+            <form action="#" method="post">
+                <h1 >Login</h1>
+                <div class="form-group">
+                    <input type="text" name="email" id="email" required placeholder="Email">
+                    <span><i class="fas fa-envelope-square"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                    <span><i class="fas fa-lock"></i></span>
+                </div>
+                <div class="form-group-check">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label>Remember me</label>
+                </div>
+                <button type="submit">login</button>
+                <p>Or login with</p>
+                <div class="form-another-login">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                        <p>Facebook</p>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-google"></i>
+                        <p>Google</p>
+                    </a>
+                </div>
+                <div class="form-group-signup">
+                    <p>Not a member? </p>
+                    <a href='#'>Sign up now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
