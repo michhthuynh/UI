@@ -203,3 +203,33 @@ header nav .sub-menu {
     transition: border 0.2s ease 0s;
     cursor: pointer;
 }
+
+/* box-items */
+.box-items {
+    width: 100%;
+    max-width: 1320px;
+    padding: 50px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-item {
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--background-blue);
+}
+
+.box-item h3 {
+    padding: 10px 0;
+}
+
+.box-item p {
+    padding: 20px 10px;
+}
